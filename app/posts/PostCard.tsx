@@ -8,7 +8,7 @@ export default function PostCard({ post }: { post: Post }) {
       <h2 className="text-xl font-semibold mb-2">{post.title}</h2>
       <p>{post.body.slice(0, 100)}...</p>
       <Link href={`/posts/${post.id}`} className="text-blue-600 underline mt-2 block">
-        Read more
+        Read more about post
       </Link>
     </div>
   )
